@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://preciousdtilikiwei.github.io/sitemap.xml
