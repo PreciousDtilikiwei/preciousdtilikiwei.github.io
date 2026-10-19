@@ -1,126 +1,180 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Tilikiwei Doumobowei Precious — Historiographer, aspiring diplomat and public policy analyst. History and International Studies student at Delta State University, Abraka.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101f35">
+  <meta name="description" content="The official personal website of Tilikiwei Doumobowei Precious — History and International Studies graduate, historiography enthusiast, aspiring diplomat and public policy analyst exploring African history, cultural preservation, governance and AI automation.">
   <meta name="author" content="Tilikiwei Doumobowei Precious">
-  <meta name="robots" content="index, follow">
-  <title>Tilikiwei Doumobowei Precious | Historiographer & Aspiring Diplomat</title>
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://preciousdtilikiwei.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tilikiwei Doumobowei Precious | History, Diplomacy & Public Policy">
+  <meta property="og:description" content="Research, ideas and a growing journey across history, diplomacy, public policy and technology.">
+  <meta property="og:url" content="https://preciousdtilikiwei.github.io/">
+  <meta property="og:image" content="https://preciousdtilikiwei.github.io/profile.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Tilikiwei Doumobowei Precious | History, Diplomacy & Public Policy</title>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Tilikiwei Doumobowei Precious",
+    "url":"https://preciousdtilikiwei.github.io/",
+    "image":"https://preciousdtilikiwei.github.io/profile.jpg",
+    "description":"History and International Studies graduate interested in historiography, diplomacy, public policy, African history, cultural preservation and AI automation.",
+    "alumniOf":{"@type":"CollegeOrUniversity","name":"Delta State University, Abraka"},
+    "knowsAbout":["History and International Studies","Historiography","Diplomacy","International Relations","Public Policy","African History","Ijaw Cultural Heritage","Cultural Preservation","Conflict and Peace Studies","AI and Automation"]
+  }
+  </script>
   <style>
-    :root { --ink:#14213d; --gold:#b8872e; --paper:#f7f5ef; --muted:#5f6775; --white:#fff; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:var(--paper); line-height:1.7; }
-    nav { position:sticky; top:0; z-index:10; background:rgba(255,255,255,.96); border-bottom:1px solid #e5e1d7; }
-    .nav-inner { max-width:1100px; margin:auto; padding:14px 22px; display:flex; justify-content:space-between; align-items:center; gap:20px; }
-    .brand { font-weight:800; letter-spacing:.3px; }
-    nav a { color:var(--ink); text-decoration:none; margin-left:18px; font-size:.92rem; }
-    nav a:hover { color:var(--gold); }
-    .hero { max-width:1100px; margin:auto; padding:75px 22px 55px; display:grid; grid-template-columns:1.15fr .85fr; gap:55px; align-items:center; }
-    .eyebrow { color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:.78rem; font-weight:700; }
-    h1 { font-family:Georgia, serif; font-size:clamp(2.4rem,6vw,5rem); line-height:1.05; margin:12px 0 18px; }
-    .tagline { font-size:1.2rem; color:var(--muted); max-width:650px; }
-    .cta { display:inline-block; margin-top:18px; padding:12px 20px; background:var(--ink); color:#fff; text-decoration:none; border-radius:5px; }
-    .photo-wrap { text-align:center; }
-    .photo-wrap img { width:min(100%,430px); aspect-ratio:4/5; object-fit:cover; border-radius:12px; box-shadow:0 18px 45px rgba(20,33,61,.18); }
-    section { padding:70px 22px; }
-    .section-inner { max-width:1000px; margin:auto; }
-    h2 { font-family:Georgia, serif; font-size:2.2rem; margin-top:0; }
-    .about { background:#fff; }
-    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-    .card { background:#fff; padding:24px; border:1px solid #e7e2d8; border-radius:9px; }
-    .card h3 { margin-top:0; font-size:1.05rem; }
-    .location { color:var(--muted); }
-    footer { background:var(--ink); color:#fff; text-align:center; padding:30px 20px; }
-    footer small { opacity:.8; }
-    @media(max-width:760px) {
-      .hero { grid-template-columns:1fr; padding-top:45px; }
-      .photo-wrap { order:-1; }
-      .grid { grid-template-columns:1fr; }
-      nav .links { display:none; }
-    }
+    :root{--navy:#101f35;--navy2:#1b3453;--gold:#c39a52;--paper:#f7f5ef;--white:#fff;--ink:#18283b;--muted:#627084;--line:#e3dfd5;--mint:#dfe9e3}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:84px}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit}
+    a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .skip{position:absolute;left:-9999px;top:8px;background:#fff;padding:10px;z-index:100}.skip:focus{left:8px}
+    .topbar{position:sticky;top:0;z-index:20;background:rgba(16,31,53,.97);color:#fff;border-bottom:1px solid rgba(255,255,255,.12);backdrop-filter:blur(12px)}
+    .nav{max-width:1160px;margin:auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{text-decoration:none;font-weight:750;letter-spacing:.02em;font-size:.94rem}.brand span{color:var(--gold)}
+    .navlinks{display:flex;gap:20px;flex-wrap:wrap}.navlinks a{font-size:.88rem;color:#edf0f4;text-decoration:none}.navlinks a:hover{color:var(--gold)}
+    .hero{background:radial-gradient(ellipse at 82% 12%,#2d4966 0%,transparent 36%),linear-gradient(135deg,var(--navy),#172d49);color:#fff}
+    .hero-inner{max-width:1160px;margin:auto;padding:76px 24px 82px;display:grid;grid-template-columns:1.35fr .65fr;gap:60px;align-items:center}
+    .eyebrow{color:#e0bd7b;text-transform:uppercase;letter-spacing:.19em;font-size:.76rem;font-weight:800}
+    h1,h2,h3{line-height:1.2}h1,h2{font-family:Georgia,"Times New Roman",serif}
+    h1{font-size:clamp(2.55rem,6vw,5.2rem);letter-spacing:-.04em;margin:16px 0 18px;max-width:800px}
+    .hero .intro{font-size:1.16rem;color:#e1e7ef;max-width:700px}
+    .roleline{font-weight:650;color:#fff}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:6px;text-decoration:none;font-weight:750;border:1px solid var(--gold);background:var(--gold);color:#142238}
+    .btn.secondary{background:transparent;color:#fff;border-color:#74849a}
+    .portrait{justify-self:center;position:relative;max-width:340px;width:100%}
+    .portrait:before{content:"";position:absolute;inset:16px -14px -14px 16px;border:1px solid var(--gold);border-radius:14px}
+    .portrait img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;display:block;border-radius:12px;border:4px solid rgba(255,255,255,.1);box-shadow:0 25px 60px #07101e70}
+    .portrait .caption{position:relative;text-align:center;color:#d7dfeb;font-size:.84rem;margin-top:24px}
+    .section{padding:76px 24px}.section.white{background:#fff}.wrap{max-width:1040px;margin:auto}
+    .kicker{color:#9a712f;text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:800}
+    h2{font-size:clamp(2rem,4vw,3rem);margin:8px 0 22px;color:var(--navy);letter-spacing:-.025em}
+    h3{font-size:1.12rem;margin:0 0 10px;color:var(--navy)}
+    p{margin:0 0 16px}.lead{font-size:1.1rem;color:#35465a;max-width:850px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+    .card{padding:25px;border:1px solid var(--line);border-radius:10px;background:#fff;box-shadow:0 5px 20px rgba(16,31,53,.035)}
+    .card p{color:var(--muted);font-size:.96rem;margin-bottom:0}
+    .number{font-family:Georgia,serif;color:var(--gold);font-size:1.65rem;margin-bottom:8px}
+    .research-feature{margin-top:24px;padding:28px;border-left:4px solid var(--gold);background:#f7f5ef;border-radius:0 10px 10px 0}
+    .tagrow{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
+    .tag{font-size:.85rem;padding:6px 11px;border:1px solid #d8d3c8;border-radius:999px;background:#fff;color:#34445a}
+    .timeline{display:grid;grid-template-columns:150px 1fr;gap:22px;padding:22px 0;border-bottom:1px solid var(--line)}
+    .timeline:last-child{border-bottom:0}.timeline .label{font-weight:800;color:#8a672d}
+    .techpanel{background:var(--navy);color:#fff;border-radius:14px;padding:32px}
+    .techpanel h3{color:#fff}.techpanel p{color:#d9e1ec}
+    .techpanel .tag{background:transparent;border-color:#66768b;color:#fff}
+    .links{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:24px}
+    .linkcard{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px;border:1px solid var(--line);border-radius:9px;background:#fff;text-decoration:none}
+    .linkcard:hover{border-color:var(--gold);transform:translateY(-1px)}.linkcard small{display:block;color:var(--muted);margin-top:3px}
+    .contact{background:var(--mint)}
+    footer{background:#0b1728;color:#dbe2eb;padding:32px 24px;text-align:center}
+    footer strong{color:#fff}footer small{display:block;margin-top:7px;color:#b5c0ce}
+    @media(max-width:800px){.hero-inner{grid-template-columns:1fr;gap:35px;padding-top:48px}.portrait{max-width:270px;grid-row:1}.grid{grid-template-columns:1fr 1fr}.nav{align-items:flex-start;flex-direction:column;gap:8px}.navlinks{gap:14px}.navlinks a{font-size:.82rem}.section{padding:58px 20px}}
+    @media(max-width:540px){.grid,.links{grid-template-columns:1fr}.timeline{grid-template-columns:1fr;gap:5px}.hero-inner{padding-left:20px;padding-right:20px}h1{font-size:2.65rem}.navlinks{gap:10px}.navlinks a{font-size:.78rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
   </style>
 </head>
 <body>
-  <nav>
-    <div class="nav-inner">
-      <div class="brand">Tilikiwei Doumobowei Precious</div>
-      <div class="links">
-        <a href="#about">About</a>
-        <a href="#interests">Interests</a>
-        <a href="#background">Background</a>
-      </div>
+<a class="skip" href="#main">Skip to content</a>
+<div class="topbar">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home">TILIKIWEI <span>DOUMOBOWEI</span> PRECIOUS</a>
+    <div class="navlinks">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#technology">Technology</a><a href="#background">Background</a><a href="#links">Links</a>
     </div>
   </nav>
-
-  <header class="hero">
+</div>
+<header class="hero" id="home">
+  <div class="hero-inner">
     <div>
-      <div class="eyebrow">History • Diplomacy • Public Policy</div>
+      <div class="eyebrow">History · Diplomacy · Public Policy · Technology</div>
       <h1>Tilikiwei Doumobowei Precious</h1>
-      <p class="tagline"><strong>Historiographer · Aspiring Diplomat · Public Policy Analyst</strong></p>
-      <p>
-        A History and International Studies student at Delta State University, Abraka,
-        with a growing interest in diplomacy, international affairs, historical scholarship,
-        conflict resolution and public policy.
-      </p>
-      <a class="cta" href="#about">Explore Profile</a>
+      <p class="roleline">History and International Studies Graduate · Historiography Enthusiast · Aspiring Diplomat · Aspiring Public Policy Analyst</p>
+      <p class="intro">Exploring how history shapes societies, how diplomacy builds understanding, and how thoughtful policy and emerging technology can help address real-world challenges.</p>
+      <div class="actions"><a class="btn" href="#about">Discover my story</a><a class="btn secondary" href="#research">Explore my research</a></div>
     </div>
-    <div class="photo-wrap">
-      <img src="profile.jpg" alt="Portrait of Tilikiwei Doumobowei Precious">
+    <div class="portrait">
+      <img src="profile.jpg" alt="Portrait of Tilikiwei Doumobowei Precious" width="430" height="538">
+      <div class="caption">Curiosity about the past. Commitment to the future.</div>
     </div>
-  </header>
-
-  <section id="about" class="about">
-    <div class="section-inner">
-      <h2>About</h2>
-      <p>
-        Tilikiwei Doumobowei Precious is a student of <strong>History and International Studies
-        at Delta State University, Abraka, Delta State, Nigeria</strong>. His interests sit at
-        the intersection of history, international relations, diplomacy and public policy.
-      </p>
-      <p>
-        He is from <strong>Warri North Local Government Area of Delta State</strong>, was born
-        in <strong>Ajakurama Community, Ovia South-West Local Government Area of Edo State</strong>,
-        and grew up in <strong>Sapele, Delta State</strong>. These experiences have contributed
-        to his interest in history, society, governance and international affairs.
-      </p>
-      <p>
-        He aspires to contribute to scholarship, diplomacy and evidence-informed public policy,
-        with particular attention to the ways historical knowledge and international engagement
-        can help societies understand conflict, cooperation and change.
-      </p>
-    </div>
-  </section>
-
-  <section id="interests">
-    <div class="section-inner">
-      <h2>Areas of Interest</h2>
+  </div>
+</header>
+<main id="main">
+  <section class="section white" id="about">
+    <div class="wrap">
+      <div class="kicker">A little about me</div><h2>History as a guide to the future.</h2>
+      <p class="lead">I am Tilikiwei Doumobowei Precious, a graduate of History and International Studies at Delta State University, Abraka, Nigeria. My interests bring together historical research, international relations, diplomacy, governance and public policy.</p>
+      <p>My academic journey has strengthened my interest in how communities preserve memory, how institutions and states respond to conflict, and how historical understanding can inform contemporary decisions. I hope to keep developing these interests through research, writing, practical learning and public engagement.</p>
+      <p>I am from Warri North Local Government Area of Delta State, was born in Ajakurama community in Ovia South-West Local Government Area of Edo State, and grew up in Sapele, Delta State. These connections have helped shape my interest in the histories, cultures and experiences of the Niger Delta and Nigeria.</p>
       <div class="grid">
-        <div class="card"><h3>Diplomacy & International Relations</h3><p>International affairs, diplomatic practice, foreign policy and relations among states.</p></div>
-        <div class="card"><h3>Historiography</h3><p>Historical interpretation, historical writing and the study of how the past is understood.</p></div>
-        <div class="card"><h3>Public Policy</h3><p>Governance, policy analysis and the development of practical, evidence-informed solutions.</p></div>
-        <div class="card"><h3>African History</h3><p>Historical developments, societies, institutions and contemporary implications across Africa.</p></div>
-        <div class="card"><h3>Conflict & Peace Studies</h3><p>Conflict resolution, peacebuilding and the relationship between history and contemporary disputes.</p></div>
-        <div class="card"><h3>International Affairs</h3><p>Global political developments and the historical forces shaping today's international system.</p></div>
+        <article class="card"><div class="number">01</div><h3>Historical inquiry</h3><p>Documenting the past, interpreting historical evidence and exploring the links between memory, identity and society.</p></article>
+        <article class="card"><div class="number">02</div><h3>Diplomacy & global affairs</h3><p>Learning about international relations, foreign policy, negotiation, peacebuilding and cooperation among states.</p></article>
+        <article class="card"><div class="number">03</div><h3>Public policy</h3><p>Building an evidence-minded perspective on governance, policy choices and the public interest.</p></article>
       </div>
     </div>
   </section>
-
-  <section id="background" class="about">
-    <div class="section-inner">
-      <h2>Academic Background</h2>
-      <div class="card">
-        <h3>Delta State University, Abraka</h3>
-        <p><strong>Department:</strong> History and International Studies</p>
-        <p class="location">Delta State, Nigeria</p>
+  <section class="section" id="research">
+    <div class="wrap">
+      <div class="kicker">Research & intellectual interests</div><h2>Questions worth preserving and exploring.</h2>
+      <p class="lead">My research interests centre on African history, indigenous knowledge, cultural preservation, conflict and the relationship between historical experience and public life.</p>
+      <div class="research-feature">
+        <div class="kicker">Academic research project</div>
+        <h3>The Historical and Cultural Significance of Egbesu Divinity Worship among the Egbema Ijaw People of Delta and Edo States</h3>
+        <p>This research examines the place of Egbesu worship in Egbema Ijaw historical experience and cultural life, with attention to cultural identity, continuity and preservation. The project reflects my interest in documenting community histories and taking indigenous perspectives seriously.</p>
+      </div>
+      <div class="tagrow"><span class="tag">Ijaw heritage</span><span class="tag">African history</span><span class="tag">Historiography</span><span class="tag">Cultural preservation</span><span class="tag">Diplomacy</span><span class="tag">Conflict & peace studies</span><span class="tag">Governance</span><span class="tag">Public policy</span></div>
+      <div class="research-feature">
+        <h3>Research approach</h3>
+        <p>I value careful documentation, context, respect for community knowledge and clear distinction between historical evidence, interpretation and unanswered questions. As my work develops, this section can feature completed papers, articles, presentations and properly referenced research outputs.</p>
       </div>
     </div>
   </section>
-
-  <footer>
-    <strong>Tilikiwei Doumobowei Precious</strong><br>
-    <small>Historiographer · Aspiring Diplomat · Public Policy Analyst</small>
-  </footer>
+  <section class="section white" id="technology">
+    <div class="wrap">
+      <div class="kicker">Learning & building</div><h2>Connecting ideas with technology.</h2>
+      <div class="techpanel">
+        <h3>AI & Automation — learning in progress</h3>
+        <p>I am building foundational knowledge in automation and exploring how triggers, logic and actions can connect digital tools to simplify repetitive tasks. My long-term aim is to develop practical projects and understand how technology can support research, communication and productive work.</p>
+        <div class="tagrow"><span class="tag">AI & automation</span><span class="tag">Workflow thinking</span><span class="tag">Digital productivity</span><span class="tag">Practical projects in development</span></div>
+      </div>
+      <p style="margin-top:22px">This section will grow as I complete learning milestones and build demonstrable projects. I will showcase verified work here rather than list tools or achievements I have not yet mastered.</p>
+    </div>
+  </section>
+  <section class="section" id="background">
+    <div class="wrap">
+      <div class="kicker">Education & direction</div><h2>The foundation so far.</h2>
+      <div class="timeline"><div class="label">Education</div><div><h3>Delta State University, Abraka</h3><p>History and International Studies · Graduated; awaiting convocation at the time of this profile update.</p></div></div>
+      <div class="timeline"><div class="label">Research</div><div><h3>History and cultural preservation</h3><p>Academic work focused on the historical and cultural significance of Egbesu divinity worship among Egbema Ijaw communities in Delta and Edo States.</p></div></div>
+      <div class="timeline"><div class="label">Current learning</div><div><h3>AI & Automation</h3><p>Developing foundational skills and preparing to build practical workflow projects.</p></div></div>
+      <div class="timeline"><div class="label">Long-term vision</div><div><h3>Diplomacy, policy and scholarship</h3><p>Working toward a path that combines historical insight, international engagement, evidence-informed policy and lifelong learning.</p></div></div>
+    </div>
+  </section>
+  <section class="section white" id="links">
+    <div class="wrap">
+      <div class="kicker">Find and follow my work</div><h2>Professional links.</h2>
+      <p>Use these links to explore my website and public code repository. Additional professional profiles and contact details can be added as their exact URLs are confirmed.</p>
+      <div class="links">
+        <a class="linkcard" href="https://github.com/PreciousDtilikiwei" target="_blank" rel="noopener noreferrer"><span><strong>GitHub profile</strong><small>Public projects and digital work</small></span><span aria-hidden="true">↗</span></a>
+        <a class="linkcard" href="https://github.com/PreciousDtilikiwei/preciousdtilikiwei.github.io" target="_blank" rel="noopener noreferrer"><span><strong>Website repository</strong><small>Source files for this personal website</small></span><span aria-hidden="true">↗</span></a>
+        <a class="linkcard" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><span><strong>LinkedIn</strong><small>Professional networking · profile link to be added</small></span><span aria-hidden="true">↗</span></a>
+        <a class="linkcard" href="#home"><span><strong>Personal website</strong><small>Return to the top of this profile</small></span><span aria-hidden="true">↑</span></a>
+      </div>
+    </div>
+  </section>
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <div class="kicker">Keep in touch</div><h2>Ideas, history and possibilities.</h2>
+      <p class="lead">I welcome thoughtful conversations around history, cultural heritage, diplomacy, public policy and responsible uses of technology. A verified contact address and professional profile links can be added here when ready.</p>
+    </div>
+  </section>
+</main>
+<footer><strong>Tilikiwei Doumobowei Precious</strong><small>History · Diplomacy · Public Policy · Technology</small><small>© <span id="year">2026</span> Tilikiwei Doumobowei Precious. Built to grow with the journey.</small></footer>
 </body>
 </html>
